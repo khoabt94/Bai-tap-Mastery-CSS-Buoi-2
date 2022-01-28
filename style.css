@@ -1,0 +1,375 @@
+
+
+/* ************************************* */
+/* NAV */
+/* ************************************* */
+
+.header {
+    padding: 0 2.4rem;
+    height: 16.8rem;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.header__logo {
+    padding: 2.4rem 0;
+}
+
+.header__logo-container {
+    background-color: #002146;
+    padding: 2.4rem;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    margin-right: 1.6rem;
+}
+
+.header__logo-icon {
+    font-size: 3.2rem;
+    color: #fdc800;    
+}
+
+.nav__item {
+    list-style: none;
+    padding-left: 1.6rem;
+}
+
+.nav__item li {
+    float: left;
+    padding: 0 2.4rem 2.4rem 2.4rem;
+    display: inline-block;
+}
+
+.nav__item-list {
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: #002146;
+}
+
+/* ************************************* */
+/* HERO */
+/* ************************************* */
+
+.section-hero {
+    background-image: url('./images/2.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin-top: 16.8rem;
+}
+
+/* ************************************* */
+/* ABOUT */
+/* ************************************* */
+
+.section-about {
+    padding: 6.4rem 0;
+}
+
+.about__text-box {
+    float: left;
+    width: 48%;
+}
+
+.about__description {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-top: 1.6rem;
+}
+
+.btn.about_link {
+    margin-top: 3.2rem;
+}
+
+.about__img {
+    width: 45%;
+    float: right;
+}
+
+.about__img-img {
+    width: 100%;
+}
+
+/* ************************************* */
+/* STAT */
+/* ************************************* */
+
+.section-stat {
+    padding: 6.4rem 0;
+    background-color: #f6f6f6;
+}
+
+.stat__item {
+    width: 25%;
+    float: left;
+    display: inline-block;
+    padding: 0 2.4rem;
+}
+
+.stat__item-number {
+    width: 30%;
+    float: left;
+    font-size: 7.4rem;
+    font-weight: 700;
+    line-height: 8rem;
+    display: inline-block;
+}
+
+.stat__item-text {
+    width: 70%;
+    float: left;
+    font-size: 1.8rem;
+    padding-top: 0.8rem;
+    padding-left: 2.4rem;
+    line-height: 1.8;
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.container .stat__item:first-child {
+    margin-left: -2.4rem;
+}
+
+.container .stat__item:last-child {
+    margin-right: -2.4rem;
+}
+
+/* ************************************* */
+/* SUBJECT */
+/* ************************************* */
+
+.section-subject {
+    padding: 12.8rem 0;
+}
+
+.section-subject .container:first-child {
+    margin-bottom: 3.2rem;
+}
+
+.container .subject__item:first-child {
+    margin-left: -0.8rem;
+}
+
+.container .subject__item:last-child {
+    margin-right: -0.8rem;
+}
+
+.subject__item {
+    float: left;
+    padding: 5.2rem 0;
+    background-color: #002146;
+    margin: 0 1.6rem;
+    width: 23%;
+    height: 20rem;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.subject__item-icon {
+    font-size: 4.4rem;
+    color: #fff;
+}
+
+.subject__item-text {
+    margin-top: 1.6rem;
+    font-size: 2.0rem;
+    color: #fff;
+}
+
+/* ************************************* */
+/* NEWS */
+/* ************************************* */
+
+.section-news {
+    padding: 12.8rem 0;
+    background-color: #f6f6f6;
+}
+
+.post {
+    float: left;
+    width: 48%;
+}
+
+.event {
+    float: right;
+    width: 48%;
+}
+
+.news__heading {
+    margin-bottom: 4.8rem;
+}
+
+.post__item-subheading {
+    margin-bottom: 1.2rem;
+}
+
+.post__body {
+    background-color: #fff;
+    box-shadow: 0 0 0.8rem 0.8rem rgba(0, 0, 0, 0.05);
+    padding: 0 2.4rem;
+}
+
+.post__item {
+    padding: 3rem 0;
+}
+
+.post__item:not(:last-child) {
+    border-bottom: 1px solid #eee;
+}
+
+.post__img {
+    float: left;
+    width: 30%;
+    margin-right: 2.4rem;
+}
+
+.post__img-img {
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.post__item-text {
+    line-height: 1.6;
+}
+
+.post__item-subheading {
+    color: #888;
+}
+
+.btn.post__link {
+    margin-top: 2.4rem;
+    float: right;
+}
+
+
+/* Event */
+
+.event-info {
+    float: left;
+    width: 30%;
+    margin-right: 2.4rem;
+}
+
+.event__item {
+    padding: 2.4rem;
+    background-color: #fff;
+    box-shadow: 0 0 0.8rem 0.8rem rgba(0, 0, 0, 0.05);
+}
+
+.event__item:nth-child(2) {
+    margin-bottom: 2.4rem;
+}
+
+/* Event day */
+
+.event-info {
+    width: 20%;
+    text-align: center;
+    background-color: transparent;
+    height: 17rem;
+}
+
+.event__day {
+    padding: 2rem 0 1.6rem 0 ;
+    background-color: #fdc800;
+    font-size: 3rem;
+    font-weight: 700;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.event__day span {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 0.4rem;
+    display: block;
+}
+
+.event__year {
+    background-color: #002146;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1.2rem 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.event__item-info {
+    margin-top: 1.6rem;
+}
+
+.event__item-time {
+    padding: 0.4rem 2.4rem 0.4rem 0;
+    border-right: 1px solid #002146;
+    color: #002146;
+}
+
+.event__item-location {
+    padding-left: 2.4rem;
+    color: #002146;
+}
+
+/* ************************************* */
+/* FOOTER */
+/* ************************************* */
+
+.footer {
+    padding: 6.4rem 0;
+    background-color: #002146;
+}
+
+.container.footer__contact {
+    border-bottom: 1px solid #666;
+    padding: 0 0;
+}
+
+.contact {
+    float: left;
+    margin-right: 4.8rem;
+}
+
+.contact__feature {
+    float: left;
+    margin-right: 4.8rem;
+}
+
+.contact__info-link {
+    display: block;
+    line-height: 1.6;
+}
+
+.contact__info-link i {
+   color: #fdc800;
+   margin-right: 1.2rem;
+}
+
+.contact__quick {
+    float: left;
+}
+
+.contact__feature {
+    list-style: none;
+}
+
+.contact__quick {
+    list-style: none;
+}
+
+.contact, .contact__feature, .contact__quick {
+    width: 30%;
+}
+
+.container.footer__copyright {
+    padding: 3.2rem 3.2rem 0 0;
+}
+
